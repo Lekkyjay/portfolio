@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "class": "react",
+    "cat": "React / Contentful",
+    "title": "Room Booking App",
+    "src": "https://source.unsplash.com/CyFBmFEsytU",
+    "url": "https://react-room-reservation.netlify.app"
+  },
+  {
+    "id": 2,
+    "class": "react",
+    "cat": "React / LocalStorage",
+    "title": "Budgeting App",
+    "src": "https://source.unsplash.com/jUwvjOmCTWc",
+    "url": "https://react-budgeting-app.netlify.app/"
+  },
+  {
+    "id": 3,
+    "class": "react",
+    "cat": "React / Firebase / Firestore",
+    "title": "Ecommerce App",
+    "src": "https://source.unsplash.com/JKUTrJ4vK00",
+    "url": "https://ecomm-clothing-withbackend.herokuapp.com/"
+  },
+  {
+    "id": 4,
+    "class": "react",
+    "cat": "React",
+    "title": "Expense Tracker",
+    "src": "https://source.unsplash.com/LqKhnDzSF-8",
+    "url": "https://lekkyjay.github.io/react-expense-tracker/"
+  },
+  {
+    "id": 5,
+    "class": "react",
+    "cat": "React",
+    "title": "Shopping Cart",
+    "src": "https://source.unsplash.com/mcSDtbWXUZU",
+    "url": "https://lekkyjay.github.io/react-context-cart/"
+  },
+  {
+    "id": 6,
+    "class": "react",
+    "cat": "React / LocalStorage",
+    "title": "Task Manager App",
+    "src": "https://source.unsplash.com/IrRbSND5EUc",
+    "url": "https://react-taskmanager-app.netlify.app/"
+  },
+  {
+    "id": 7,
+    "class": "react",
+    "cat": "React / ApexCharts",
+    "title": "Data Visualization App",
+    "src": "https://source.unsplash.com/6EnTPvPPL6I",
+    "url": "https://lekkyjay.github.io/apex-charts/"
+  },
+  {
+    "id": 8,
+    "class": "express",
+    "cat": "EXpressJS / MongoDB",
+    "title": "Exercise Tracking App",
+    "src": "https://source.unsplash.com/_Jb1TF3kvsA",
+    "url": "https://exercise-tracker-react-app.herokuapp.com/"
+  },
+  {
+    "id": 9,
+    "class": "react",
+    "cat": "React / Firebase",
+    "title": "Ecomm. Clothing Store",
+    "src": "https://source.unsplash.com/TOmhcw7snMA",
+    "url": "https://dress-shop.herokuapp.com/"
+  },
+  {
+    "id": 10,
+    "class": "angular",
+    "cat": "Angular / MongoDB",
+    "title": "Appointment Booking",
+    "src": "https://source.unsplash.com/m_HRfLhgABo",
+    "url": "https://mean-appointment.herokuapp.com/"
+  }
+]
