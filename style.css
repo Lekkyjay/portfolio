@@ -2,37 +2,11 @@
 
 /* Any variable defined inside root is accessible tru out the stylesheet. */
 :root {
-  --orange: #db5e53;
-	--lime: #c1db27;	/* rgb(193, 219, 39) */
-	--lime-dark: #7e8f21;
-	--blue: #1a508f;
-	--blue-sea: #165eb1;
-	--blue-alpha: #1a508f95;
-	--blue-dark: #1a395c;
-	--blue-light: #3d87db;
-	--blue-light-alpha: #3d87db90;
-	--brand-bg: #1D62DB;
+  --lime: #c1db27;	/* rgb(193, 219, 39) */
 	--brand: #03AFC2;
-	--brand-light: #03AFC290;
 	--brand-dark: #067885;
 	--light: #ececec;
-
-	--clr1: rgb(0, 104, 64);
- 	--clr2: linear-gradient(90deg, rgb(31, 166, 126) 0%, rgb(13, 74, 56) 100%);
-	
-  
-  --gradient-color: linear-gradient(to right, var(--yellow-solid), var(--purple-light));
-	--gradient-color-alt: linear-gradient(to right, var(--purple-light), var(--yellow-solid));
-
-	--gradient-primary: linear-gradient(45deg, var(--blue-alpha), var(--blue-dark));
-	
 	--hero-gradient: linear-gradient(to bottom, rgba(2, 0, 6, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(12, 191, 226) 100%);
-
-	--about-gradient: linear-gradient(to bottom,  var(--blue-dark), var(--blue-sea) 50%,  var(--blue-dark) 100%);
-
-	--max-width: 1200px;
-
-	--bg-url: url('https://source.unsplash.com/PgmmzpImdYU');
 }
 
 /*************** Global Styles **********************/
@@ -65,7 +39,6 @@ header {
 	position: fixed;
 	width: 100%;
 	height: 60px;
-	/* background: #00000090; */
 	display: flex;
 	z-index: 15;
 }
@@ -199,7 +172,6 @@ header .brand a span {
 	/* height: calc(100vh - 60px); */
 	height: 100vh;
 	background: var(--hero-gradient);
-	/* background: #00000090; */
 }
 
 #hero .container {
@@ -470,15 +442,18 @@ animation: loading 1s linear;
 	font-size: 1.4rem;
 }
 
-#projects .desc a {
+#projects .desc .project-link {
 	position: absolute;
-	display: block;
 	bottom: 0;
+	transition: all 0.5s;
+}
+
+#projects .desc a {
+	display: inline-block;
 	text-decoration: none;
 	background: #dc143c;
 	padding: 1rem;
 	border-radius: 5%;
-	transition: all 0.5s;
 	color: #fff;
 	font-size: 1.4rem;
 }
@@ -496,7 +471,7 @@ animation: loading 1s linear;
 	transform: translateY(100%);
 }
 
-#projects .wrapper:hover .desc a {
+#projects .wrapper:hover .project-link {
 	transform: translateY(-100%);
 }
 

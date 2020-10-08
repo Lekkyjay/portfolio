@@ -87,7 +87,10 @@ function renderProjects(projects) {
 					<h2 class="title">${project.title}</h2>
 					<span class="spec">${project.cat}</span>
 				</div>
-				<a href="${project.url}" class="btn">Learn more</a>
+				<div class="project-link">
+					<a href="${project.url}" class="btn">View Project</a>
+					<a href="${project.gh}" class="btn">GitHub</a>
+				</div>
 			</div>
 		</div>`
 	})
