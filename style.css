@@ -223,45 +223,40 @@ header .brand a span {
 
 /****************************About section***********************/
 #about {
-	height: 100vh;
+	min-height: 100vh;
+	height: 100%;
 	background: var(--light);
-	border-top: 2px solid rgb(2, 0, 6);
 }
 
 #about .container {
-	display: grid;
-	grid-template-columns: 100%;
-	grid-auto-rows: auto;
-	grid-template-areas: 
-		"title"
-		"about"
-		"skills";
-	height: 90%;
-	justify-items: center;
-	align-items: center;
-	padding-top: 60px;
+	display: flex;
+	flex-direction: column;
 }
 
 #about .title {
-	grid-area: title;
+	text-align: center;
+	margin-top: 70px;
 	font-size: 4rem;
 	color: var(--brand);
 }
 
-#about .about {
-	grid-area: about;
+#about .about-wrapper {
+	width: 100%;
+	height: 100%;
 	display: grid;
-	justify-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+	grid-gap: 20px;
 	align-items: center;
-	width: 90%;
-	/* border: 1px solid blue; */
+	margin: 50px 0;
 }
 
-#about .skills {
-	grid-area: skills;
-	display: grid;
-	width: 80%;
-	margin-top: 30px;
+#about .about {
+	margin-bottom: 25px;
+}
+
+#about .about-img-wrapper {
+	display: flex;
+	justify-content: center;
 }
 
 #about .about .img {
@@ -284,7 +279,16 @@ header .brand a span {
 	font-size: 1.8rem;
 	letter-spacing: 2px;
 	line-height: 30px;
+	padding: 20px;
+}
 
+
+#about .skills {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/* border: 1px solid blue;	 */
 }
 
 .bar-container {
@@ -404,6 +408,17 @@ animation: loading 1s linear;
 	opacity: 1;
 	transform: translateX(0px);
 	animation: showProjects 1s ease;
+}
+
+@keyframes showProjects {
+	0% {
+		opacity: 0;
+		transform: translateX(10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
 }
 
 #projects .img {
@@ -668,7 +683,7 @@ footer .copy-right {
 }
 
 
-/****************************** MEDIA QUERY *****************************/
+/****************************** NAV MENU MEDIA QUERY *****************************/
 /* For desktop style */
 @media only screen and (min-width: 1000px) {
 	.nav-bar nav {
@@ -705,41 +720,5 @@ footer .copy-right {
 
 	header .brand {
 		font-size: 1.4rem;
-	}
-
-/****************************About section***********************/
-	#about .container {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 10% 90%;
-		grid-template-areas: 
-			"title title"
-			"about skills";
-		padding-top: 60px;
-	}
-
-	.bar-container {
-		margin: 20px 0;
-	}
-}
-	
-
-@keyframes showProjects {
-	0% {
-		opacity: 0;
-		transform: translateX(10px);
-	}
-	100% {
-		opacity: 1;
-		transform: translateX(0px);
-	}
-}
-
-@keyframes showBorders {
-	0% {
-		border: 0;
-	}
-	100% {
-		border: 1px solid (--lime);
 	}
 }
