@@ -39,6 +39,7 @@ header {
 	position: fixed;
 	width: 100%;
 	height: 60px;
+	/* background: #00000090; */
 	display: flex;
 	z-index: 15;
 }
@@ -172,6 +173,7 @@ header .brand a span {
 	/* height: calc(100vh - 60px); */
 	height: 100vh;
 	background: var(--hero-gradient);
+	/* background: #00000090; */
 }
 
 #hero .container {
@@ -347,7 +349,8 @@ animation: loading 1s linear;
 
 /****************************Projects section***********************/
 #projects {
-	height: 100vh;
+	min-height: 100vh;
+	height: 100%;
 	width: 100%;
 	padding: 60px 0 40px;
 	background: var(--brand);
@@ -395,9 +398,9 @@ animation: loading 1s linear;
 }
 
 #projects .projects {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 20px;
 }
 
 #projects .projects .wrapper {
@@ -685,7 +688,7 @@ footer .copy-right {
 
 /****************************** NAV MENU MEDIA QUERY *****************************/
 /* For desktop style */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
 	.nav-bar nav {
 		position: initial;
 		transform: translate(0, 0);
@@ -722,3 +725,4 @@ footer .copy-right {
 		font-size: 1.4rem;
 	}
 }
+	
