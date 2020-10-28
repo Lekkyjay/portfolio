@@ -4,7 +4,7 @@ const header = document.querySelector('header');
 const brand = document.querySelector('header .brand a');
 const navLinks = document.querySelectorAll('.nav-bar nav .nav-list li a');
 const projects = document.querySelector('.nav-bar nav .nav-list .projects');
-const homeLink = document.querySelector('.nav-bar nav .nav-list li a .home');
+const homeLink = document.querySelector('.nav-bar nav .nav-list li a.home');
 const viewWork = document.querySelector('#hero .view-work');
 const container = document.querySelector('#projects .projects');
 const projectCategories = document.querySelectorAll('#projects .categories div');
@@ -14,7 +14,7 @@ const all = document.querySelector('#projects .all')
 navLinks.forEach(linkItem => {
 	linkItem.addEventListener('click', (e) => {
 		navLinks.forEach(navLink => {
-			navLink.firstChild.classList.remove('current')
+			navLink.classList.remove('current')
 		})
 		e.target.classList.add('current')
 	})
@@ -22,7 +22,7 @@ navLinks.forEach(linkItem => {
 
 viewWork.addEventListener('click', () => {
 	navLinks.forEach(navLink => {
-		navLink.firstChild.classList.remove('current')
+		navLink.classList.remove('current')
 	})
 	projects.classList.add('current')
 })
@@ -89,7 +89,7 @@ function renderProjects(projects) {
 				</div>
 				<div class="project-link">
 					<a href="${project.url}" class="btn">View Project</a>
-					<a href="${project.gh}" class="btn">GitHub</a>
+					<a href="${project.url}" class="btn">GitHub</a>
 				</div>
 			</div>
 		</div>`
@@ -113,3 +113,35 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	homeLink.classList.add('current')
 	getBoxes()
 });
+
+
+//Add current class to sections on page scroll
+const sections = document.querySelectorAll("section");
+
+onscroll = function () {
+  const scrollPosition = document.documentElement.scrollTop;
+
+  sections.forEach((section) => {
+    if (
+      scrollPosition >= section.offsetTop - section.offsetHeight * 0.25 &&
+      scrollPosition <
+        section.offsetTop + section.offsetHeight - section.offsetHeight * 0.25
+    ) {
+      const currentId = section.attributes.id.value;
+      removeAllActiveClasses();
+      addActiveClass(currentId);
+    }
+  });
+};
+
+const removeAllActiveClasses = function () {
+  navLinks.forEach((el) => {
+    el.classList.remove("current");
+  });
+};
+
+const addActiveClass = function (id) {
+  // console.log(id);
+  const selector = `nav a[href="#${id}"]`;
+  document.querySelector(selector).classList.add("current");
+};
