@@ -3,8 +3,14 @@
 /* Any variable defined inside root is accessible tru out the stylesheet. */
 :root {
   --lime: #c1db27;	/* rgb(193, 219, 39) */
+  --lime-dark: #00FF00;	/* rgb(127, 255, 0) */
 	--brand: #03AFC2;
+	--brand-medium: #00CED1;
 	--brand-dark: #067885;
+	--turquoise: #40E0D0;
+	--mediumturquoise	: #48D1CC;
+	--darkturquoise	: #00CED1;
+	--teal: #008080;
 	--light: #ececec;
 	--hero-gradient: linear-gradient(to bottom, rgba(2, 0, 6, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(12, 191, 226) 100%);
 }
@@ -233,11 +239,12 @@ header .brand a span {
 #about .container {
 	display: flex;
 	flex-direction: column;
+	height: 100%;
 }
 
 #about .title {
 	text-align: center;
-	margin-top: 70px;
+	margin: 70px 0 30px;
 	font-size: 4rem;
 	color: var(--brand);
 }
@@ -249,11 +256,7 @@ header .brand a span {
 	grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 	grid-gap: 20px;
 	align-items: center;
-	margin: 50px 0;
-}
-
-#about .about {
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 
 #about .about-img-wrapper {
@@ -264,6 +267,7 @@ header .brand a span {
 #about .about .img {
 	width: 300px;
 	height: 300px;
+	border: 3px solid var(--brand-medium);
 	border-radius: 50%;
 	margin-bottom: 50px;
 	overflow: hidden;
@@ -289,60 +293,46 @@ header .brand a span {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
+	font-size: 1.8rem;
+	letter-spacing: 1px;
 	/* border: 1px solid blue;	 */
 }
 
-.bar-container {
-	background: rgb(221, 221, 221);
-	height: 35px;
-	margin: 10px 0;
-	position: relative;
-	border-radius: 0 1rem 1rem 0;
-	width: 100%;
+#about .skills .tech-skills {
+	margin-bottom: 35px;
 }
 
-.bar {
-	background: var(--brand);
-	height: 100%;
-	border-radius: 0 1rem 1rem 0;
-}
-
-.bar-container .skill-name {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	background: var(--brand-dark);
-	height: 100%;
+#about .skills h1 {
 	text-align: center;
-	padding: 8px 10px 0;
-	color: var(--light);
-	font-size: 1.2rem;
+	margin-bottom: 20px;
+	/* color: var(--darkturquoise); */
 }
 
-.bar-container .skill-level {
-	position: absolute;
-	top: 50%;
-	right: 0%;
-	transform: translateY(-50%);
+#about .skills h1::before {
+	content: "\2756";
+	color: var(--darkturquoise);
+	margin-left: -3em;
 	padding-right: 5px;
-	font-size: 1rem;
+	font-size: 3.2rem;
 }
 
-.bar1 { width: 85%; }
-.bar2 { width: 85%; }
-.bar3 { width: 90%; }
-.bar4 { width: 85%; }
-.bar5 { width: 85%; }
-.bar6 { width: 75%; }
-.bar7 { width: 90%; }
-
-.load {
-animation: loading 1s linear;
+#about .skills ul {
+	list-style: none;
 }
 
-@keyframes loading {
-0% { width: 0%; }
+#about .skills ul li:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+#about .skills ul li::before {
+  content: "\2606";
+  color: var(--brand-medium);
+	font-weight: bold;
+	font-size: 2.2rem;
+  display: inline-block; 
+  width: 1em;
+  padding-right: 5px;
 }
 
 

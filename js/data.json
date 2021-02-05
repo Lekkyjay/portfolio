@@ -78,5 +78,21 @@
     "title": "Appointment Booking",
     "src": "https://source.unsplash.com/m_HRfLhgABo",
     "url": "https://mean-appointment.herokuapp.com/"
+  },
+  {
+    "id": 11,
+    "class": "angular",
+    "cat": "Angular / Firebase",
+    "title": "Real Estate App",
+    "src": "https://source.unsplash.com/iXXfSw_1J9k",
+    "url": "https://fir-angular-1babe.firebaseapp.com/"
+  },
+  {
+    "id": 12,
+    "class": "angular",
+    "cat": "Angular / firebase",
+    "title": "Grocery Shopping App",
+    "src": "https://source.unsplash.com/7lzIyp2Ork4",
+    "url": "https://eshop-fcdf4.firebaseapp.com/"
   }
 ]
