@@ -288,6 +288,11 @@ header .brand a span {
 	padding: 20px;
 }
 
+#about .about .desc span {
+	color: var(--brand-medium);
+	font-weight: bold;
+}
+
 
 #about .skills {
 	height: 100%;
