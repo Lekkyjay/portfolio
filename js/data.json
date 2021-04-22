@@ -9,22 +9,6 @@
   },
   {
     "id": 2,
-    "class": "react",
-    "cat": "React / Firebase",
-    "title": "Ecomm. Clothing Store",
-    "src": "https://source.unsplash.com/TOmhcw7snMA",
-    "url": "https://dress-shop.herokuapp.com/"
-  }, 
-  {
-    "id": 3,
-    "class": "react",
-    "cat": "React / LocalStorage",
-    "title": "Budgeting App",
-    "src": "https://source.unsplash.com/jUwvjOmCTWc",
-    "url": "https://react-budgeting-app.netlify.app/"
-  },
-  {
-    "id": 4,
     "class": "angular",
     "cat": "Angular / firebase",
     "title": "Grocery Shopping App",
@@ -32,7 +16,32 @@
     "url": "https://eshop-fcdf4.firebaseapp.com/"
   },
   {
+    "id": 3,
+    "class": "react",
+    "cat": "React / Firebase",
+    "title": "Ecomm. Clothing Store",
+    "src": "https://source.unsplash.com/TOmhcw7snMA",
+    "url": "https://dress-shop.herokuapp.com/"
+  }, 
+  {
+    "id": 4,
+    "class": "react",
+    "cat": "React / Contentful",
+    "title": "Gadget Store",
+    "src": "https://source.unsplash.com/CyFBmFEsytU",
+    "url": "https://tech-store-react-context.netlify.app/"
+  },
+  {
     "id": 5,
+    "class": "react",
+    "cat": "React / LocalStorage",
+    "title": "Budgeting App",
+    "src": "https://source.unsplash.com/jUwvjOmCTWc",
+    "url": "https://budget-app-react-context.netlify.app/"
+  },
+  
+  {
+    "id": 6,
     "class": "express",
     "cat": "EXpressJS / MongoDB",
     "title": "Exercise Tracking App",
@@ -40,7 +49,7 @@
     "url": "https://exercise-tracker-react-app.herokuapp.com/"
   },
   {
-    "id": 6,
+    "id": 7,
     "class": "react",
     "cat": "React",
     "title": "Expense Tracker",
@@ -48,7 +57,7 @@
     "url": "https://lekkyjay.github.io/react-expense-tracker/"
   },
   {
-    "id": 7,
+    "id": 8,
     "class": "react",
     "cat": "React",
     "title": "Shopping Cart",
@@ -56,21 +65,14 @@
     "url": "https://lekkyjay.github.io/react-context-cart/"
   },
   {
-    "id": 8,
+    "id": 9,
     "class": "react",
     "cat": "React / LocalStorage",
     "title": "Task Manager App",
     "src": "https://source.unsplash.com/IrRbSND5EUc",
     "url": "https://react-taskmanager-app.netlify.app/"
   },
-  {
-    "id": 9,
-    "class": "react",
-    "cat": "React / Contentful",
-    "title": "Room Booking App",
-    "src": "https://source.unsplash.com/CyFBmFEsytU",
-    "url": "https://react-room-reservation.netlify.app"
-  },
+  
   {
     "id": 10,
     "class": "react",
@@ -78,21 +80,21 @@
     "title": "Data Visualization App",
     "src": "https://source.unsplash.com/6EnTPvPPL6I",
     "url": "https://lekkyjay.github.io/apex-charts/"
-  },  
+  },
   {
     "id": 11,
+    "class": "angular",
+    "cat": "Angular Material",
+    "title": "Budget App",
+    "src": "https://source.unsplash.com/JKUTrJ4vK00",
+    "url": "https://angular-budget-app2.netlify.app/"
+  },  
+  {
+    "id": 12,
     "class": "angular",
     "cat": "Angular / MongoDB",
     "title": "Appointment Booking",
     "src": "https://source.unsplash.com/m_HRfLhgABo",
     "url": "https://mean-appointment.herokuapp.com/"
-  },
-  {
-    "id": 12,
-    "class": "react",
-    "cat": "React / Firebase / Firestore",
-    "title": "Ecommerce App",
-    "src": "https://source.unsplash.com/JKUTrJ4vK00",
-    "url": "https://ecomm-clothing-withbackend.herokuapp.com/"
-  }
+  }  
 ]
