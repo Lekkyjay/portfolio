@@ -38,15 +38,14 @@
     "title": "Budgeting App",
     "src": "https://source.unsplash.com/jUwvjOmCTWc",
     "url": "https://budget-app-react-context.netlify.app/"
-  },
-  
+  },  
   {
     "id": 6,
     "class": "express",
-    "cat": "EXpressJS / MongoDB",
-    "title": "Exercise Tracking App",
+    "cat": "React / Localstorage",
+    "title": "Exercise Logging App",
     "src": "https://source.unsplash.com/_Jb1TF3kvsA",
-    "url": "https://exercise-tracker-react-app.herokuapp.com/"
+    "url": "https://exercise-logger.netlify.app/"
   },
   {
     "id": 7,
