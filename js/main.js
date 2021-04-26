@@ -89,7 +89,7 @@ function renderProjects(projects) {
 				</div>
 				<div class="project-link">
 					<a href="${project.url}" target="_blank" class="btn">View Project</a>
-					<a href="${project.url}" target="_blank" class="btn">GitHub</a>
+					<a href="${project.git}" target="_blank" class="btn">GitHub</a>
 				</div>
 			</div>
 		</div>`

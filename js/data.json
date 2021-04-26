@@ -5,7 +5,8 @@
     "cat": "Angular / Firebase",
     "title": "Real Estate App",
     "src": "https://source.unsplash.com/iXXfSw_1J9k",
-    "url": "https://fir-angular-1babe.firebaseapp.com/"
+    "url": "https://fir-angular-1babe.firebaseapp.com/",
+    "git": "https://github.com/Lekkyjay/angular-real-estate"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "cat": "Angular / firebase",
     "title": "Grocery Shopping App",
     "src": "https://source.unsplash.com/7lzIyp2Ork4",
-    "url": "https://eshop-fcdf4.firebaseapp.com/"
+    "url": "https://eshop-fcdf4.firebaseapp.com/",
+    "git": "https://github.com/Lekkyjay/eshop-app"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "cat": "React / Firebase",
     "title": "Ecomm. Clothing Store",
     "src": "https://source.unsplash.com/TOmhcw7snMA",
-    "url": "https://dress-shop.herokuapp.com/"
+    "url": "https://dress-shop.netlify.app/",
+    "git": "https://github.com/Lekkyjay/dress-shop"
   }, 
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "cat": "React / Contentful",
     "title": "Gadget Store",
     "src": "https://source.unsplash.com/CyFBmFEsytU",
-    "url": "https://tech-store-react-context.netlify.app/"
+    "url": "https://tech-store-react-context.netlify.app/",
+    "git": "https://github.com/Lekkyjay/tech-store-react"
   },
   {
     "id": 5,
@@ -37,15 +41,17 @@
     "cat": "React / LocalStorage",
     "title": "Budgeting App",
     "src": "https://source.unsplash.com/jUwvjOmCTWc",
-    "url": "https://budget-app-react-context.netlify.app/"
+    "url": "https://budget-app-react-context.netlify.app/",
+    "git": "https://github.com/Lekkyjay/react-budget-app"
   },  
   {
     "id": 6,
     "class": "express",
-    "cat": "React / Localstorage",
+    "cat": "React / Express",
     "title": "Exercise Logging App",
     "src": "https://source.unsplash.com/_Jb1TF3kvsA",
-    "url": "https://exercise-logger.netlify.app/"
+    "url": "https://exercise-logger.netlify.app/",
+    "git": "https://github.com/Lekkyjay/exercise-tracker"
   },
   {
     "id": 7,
@@ -53,15 +59,17 @@
     "cat": "React",
     "title": "Expense Tracker",
     "src": "https://source.unsplash.com/LqKhnDzSF-8",
-    "url": "https://lekkyjay.github.io/react-expense-tracker/"
+    "url": "https://lekkyjay.github.io/react-expense-tracker/",
+    "git": "https://github.com/Lekkyjay/react-expense-tracker"
   },
   {
     "id": 8,
     "class": "react",
     "cat": "React",
-    "title": "Shopping Cart",
+    "title": "Gear Cart",
     "src": "https://source.unsplash.com/mcSDtbWXUZU",
-    "url": "https://lekkyjay.github.io/react-context-cart/"
+    "url": "https://lekkyjay.github.io/react-context-cart/",
+    "git": "https://github.com/Lekkyjay/react-context-cart"
   },
   {
     "id": 9,
@@ -69,16 +77,17 @@
     "cat": "React / LocalStorage",
     "title": "Task Manager App",
     "src": "https://source.unsplash.com/IrRbSND5EUc",
-    "url": "https://react-taskmanager-app.netlify.app/"
-  },
-  
+    "url": "https://react-taskmanager-app.netlify.app/",
+    "git": "https://github.com/Lekkyjay/react-task-manager"
+  },  
   {
     "id": 10,
     "class": "react",
     "cat": "React / ApexCharts",
     "title": "Data Visualization App",
     "src": "https://source.unsplash.com/6EnTPvPPL6I",
-    "url": "https://lekkyjay.github.io/apex-charts/"
+    "url": "https://lekkyjay.github.io/apex-charts/",
+    "git": "https://github.com/Lekkyjay/apex-charts"
   },
   {
     "id": 11,
@@ -86,7 +95,8 @@
     "cat": "Angular Material",
     "title": "Budget App",
     "src": "https://source.unsplash.com/JKUTrJ4vK00",
-    "url": "https://angular-budget-app2.netlify.app/"
+    "url": "https://angular-budget-app2.netlify.app/",
+    "git": "https://github.com/Lekkyjay/angular-budget-app"
   },  
   {
     "id": 12,
@@ -94,6 +104,7 @@
     "cat": "Angular / MongoDB",
     "title": "Appointment Booking",
     "src": "https://source.unsplash.com/m_HRfLhgABo",
-    "url": "https://mean-appointment.herokuapp.com/"
+    "url": "https://mean-appointment.herokuapp.com/",
+    "git": "https://github.com/Lekkyjay/mean-appointments"
   }  
 ]
