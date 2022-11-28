@@ -4,7 +4,7 @@
     "class": "angular",
     "cat": "Angular / Firebase",
     "title": "Real Estate App",
-    "src": "https://unsplash.com/photos/iXXfSw_1J9k",
+    "src": "images/project-img-01.jpg",
     "url": "https://fir-angular-1babe.firebaseapp.com/",
     "git": "https://github.com/Lekkyjay/angular-real-estate"
   },
@@ -13,7 +13,7 @@
     "class": "angular",
     "cat": "Angular / firebase",
     "title": "Grocery Shopping App",
-    "src": "https://unsplash.com/photos/7lzIyp2Ork4",
+    "src": "images/project-img-02.jpg",
     "url": "https://eshop-fcdf4.firebaseapp.com/",
     "git": "https://github.com/Lekkyjay/eshop-app"
   },
@@ -22,7 +22,7 @@
     "class": "react",
     "cat": "React / Firebase",
     "title": "Ecomm. Clothing Store",
-    "src": "https://unsplash.com/photos/TOmhcw7snMA",
+    "src": "images/project-img-03.jpg",
     "url": "https://dress-shop.netlify.app/",
     "git": "https://github.com/Lekkyjay/dress-shop"
   }, 
@@ -31,7 +31,7 @@
     "class": "react",
     "cat": "React / Contentful",
     "title": "Gadget Store",
-    "src": "https://unsplash.com/photos/CyFBmFEsytU",
+    "src": "images/project-img-04.jpg",
     "url": "https://tech-store-react-context.netlify.app/",
     "git": "https://github.com/Lekkyjay/tech-store-react"
   },
@@ -40,7 +40,7 @@
     "class": "react",
     "cat": "React / LocalStorage",
     "title": "Budgeting App",
-    "src": "https://unsplash.com/photos/jUwvjOmCTWc",
+    "src": "images/project-img-05.jpg",
     "url": "https://budget-app-react-context.netlify.app/",
     "git": "https://github.com/Lekkyjay/react-budget-app"
   },  
@@ -49,7 +49,7 @@
     "class": "express",
     "cat": "React / Express",
     "title": "Exercise Logging App",
-    "src": "https://unsplash.com/photos/_Jb1TF3kvsA",
+    "src": "images/project-img-06.jpg",
     "url": "https://exercise-logger.netlify.app/",
     "git": "https://github.com/Lekkyjay/exercise-tracker"
   },
@@ -58,7 +58,7 @@
     "class": "react",
     "cat": "React",
     "title": "Expense Tracker",
-    "src": "https://unsplash.com/photos/LqKhnDzSF-8",
+    "src": "images/project-img-07.jpg",
     "url": "https://lekkyjay.github.io/react-expense-tracker/",
     "git": "https://github.com/Lekkyjay/react-expense-tracker"
   },
@@ -67,7 +67,7 @@
     "class": "react",
     "cat": "React",
     "title": "Gear Cart",
-    "src": "https://unsplash.com/photos/mcSDtbWXUZU",
+    "src": "images/project-img-08.jpg",
     "url": "https://lekkyjay.github.io/react-context-cart/",
     "git": "https://github.com/Lekkyjay/react-context-cart"
   },
@@ -76,7 +76,7 @@
     "class": "react",
     "cat": "React / LocalStorage",
     "title": "Task Manager App",
-    "src": "https://unsplash.com/photos/IrRbSND5EUc",
+    "src": "images/project-img-09.jpg",
     "url": "https://react-taskmanager-app.netlify.app/",
     "git": "https://github.com/Lekkyjay/react-task-manager"
   },  
@@ -85,7 +85,7 @@
     "class": "react",
     "cat": "React / ApexCharts",
     "title": "Data Visualization App",
-    "src": "https://unsplash.com/photos/6EnTPvPPL6I",
+    "src": "images/project-img-10.jpg",
     "url": "https://lekkyjay.github.io/apex-charts/",
     "git": "https://github.com/Lekkyjay/apex-charts"
   },
@@ -94,7 +94,7 @@
     "class": "angular",
     "cat": "Angular Material",
     "title": "Budget App",
-    "src": "https://unsplash.com/photos/JKUTrJ4vK00",
+    "src": "images/project-img-11.jpg",
     "url": "https://angular-budget-app2.netlify.app/",
     "git": "https://github.com/Lekkyjay/angular-budget-app"
   },  
@@ -103,7 +103,7 @@
     "class": "angular",
     "cat": "Angular / MongoDB",
     "title": "Appointment Booking",
-    "src": "https://unsplash.com/photos/m_HRfLhgABo",
+    "src": "images/project-img-12.jpg",
     "url": "https://mean-appointment.herokuapp.com/",
     "git": "https://github.com/Lekkyjay/mean-appointments"
   }  
