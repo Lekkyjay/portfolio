@@ -10,100 +10,127 @@
   },
   {
     "id": 2,
+    "class": "react",
+    "cat": "React / MovieDB",
+    "title": "Movie App",
+    "src": "images/project-img-02.jpg",
+    "url": "https://movie-app-dev.netlify.app/",
+    "git": "https://github.com/Lekkyjay/movie-app-sass"
+  },  
+  {
+    "id": 3,
+    "class": "react",
+    "cat": "React / Express / Mongoose",
+    "title": "KPI Dashboard",
+    "src": "images/project-img-03.jpg",
+    "url": "https://admin-dash-client.onrender.com",
+    "git": "https://github.com/Lekkyjay/admin-dash-api"
+  },
+  {
+    "id": 4,
+    "class": "react",
+    "cat": "React / Express / Mongoose",
+    "title": "Booking App",
+    "src": "images/project-img-04.jpg",
+    "url": "https://booking-app-resort.netlify.app",
+    "git": "https://github.com/Lekkyjay/book-app-api"
+  },
+  {
+    "id": 5,
     "class": "angular",
     "cat": "Angular / firebase",
     "title": "Grocery Shopping App",
-    "src": "images/project-img-02.jpg",
+    "src": "images/project-img-05.jpg",
     "url": "https://eshop-fcdf4.firebaseapp.com/",
     "git": "https://github.com/Lekkyjay/eshop-app"
   },
   {
-    "id": 3,
+    "id": 6,
     "class": "react",
     "cat": "React / Firebase",
     "title": "Ecomm. Clothing Store",
-    "src": "images/project-img-03.jpg",
+    "src": "images/project-img-06.jpg",
     "url": "https://dress-shop.netlify.app/",
     "git": "https://github.com/Lekkyjay/dress-shop"
   }, 
   {
-    "id": 4,
+    "id": 7,
     "class": "react",
     "cat": "React / Contentful",
     "title": "Gadget Store",
-    "src": "images/project-img-04.jpg",
+    "src": "images/project-img-07.jpg",
     "url": "https://tech-store-react-context.netlify.app/",
     "git": "https://github.com/Lekkyjay/tech-store-react"
   },
   {
-    "id": 5,
+    "id": 8,
     "class": "react",
     "cat": "React / LocalStorage",
     "title": "Budgeting App",
-    "src": "images/project-img-05.jpg",
+    "src": "images/project-img-08.jpg",
     "url": "https://budget-app-react-context.netlify.app/",
     "git": "https://github.com/Lekkyjay/react-budget-app"
   },  
   {
-    "id": 6,
+    "id": 9,
     "class": "express",
     "cat": "React / Express",
     "title": "Exercise Logging App",
-    "src": "images/project-img-06.jpg",
+    "src": "images/project-img-09.jpg",
     "url": "https://exercise-logger.netlify.app/",
     "git": "https://github.com/Lekkyjay/exercise-tracker"
   },
   {
-    "id": 7,
+    "id": 10,
     "class": "react",
     "cat": "React",
     "title": "Expense Tracker",
-    "src": "images/project-img-07.jpg",
+    "src": "images/project-img-10.jpg",
     "url": "https://lekkyjay.github.io/react-expense-tracker/",
     "git": "https://github.com/Lekkyjay/react-expense-tracker"
   },
   {
-    "id": 8,
+    "id": 11,
     "class": "react",
     "cat": "React",
     "title": "Gear Cart",
-    "src": "images/project-img-08.jpg",
+    "src": "images/project-img-11.jpg",
     "url": "https://lekkyjay.github.io/react-context-cart/",
     "git": "https://github.com/Lekkyjay/react-context-cart"
   },
   {
-    "id": 9,
+    "id": 12,
     "class": "react",
     "cat": "React / LocalStorage",
     "title": "Task Manager App",
-    "src": "images/project-img-09.jpg",
+    "src": "images/project-img-12.jpg",
     "url": "https://react-taskmanager-app.netlify.app/",
     "git": "https://github.com/Lekkyjay/react-task-manager"
   },  
   {
-    "id": 10,
+    "id": 13,
     "class": "react",
     "cat": "React / ApexCharts",
     "title": "Data Visualization App",
-    "src": "images/project-img-10.jpg",
+    "src": "images/project-img-13.jpg",
     "url": "https://lekkyjay.github.io/apex-charts/",
     "git": "https://github.com/Lekkyjay/apex-charts"
   },
   {
-    "id": 11,
+    "id": 14,
     "class": "angular",
     "cat": "Angular Material",
     "title": "Budget App",
-    "src": "images/project-img-11.jpg",
+    "src": "images/project-img-14.jpg",
     "url": "https://angular-budget-app2.netlify.app/",
     "git": "https://github.com/Lekkyjay/angular-budget-app"
   },  
   {
-    "id": 12,
+    "id": 15,
     "class": "angular",
     "cat": "Angular / MongoDB",
     "title": "Appointment Booking",
-    "src": "images/project-img-12.jpg",
+    "src": "images/project-img-15.jpg",
     "url": "https://mean-appointment.herokuapp.com/",
     "git": "https://github.com/Lekkyjay/mean-appointments"
   }  

@@ -404,6 +404,8 @@ header .brand a span {
 	height: 220px;
 	margin: 10px;
 	opacity: 1;
+	border-radius: 15px;
+	overflow: hidden;
 	transform: translateX(0px);
 	animation: showProjects 1s ease;
 }
