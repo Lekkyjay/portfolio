@@ -29,13 +29,9 @@ html {
 	scroll-behavior: smooth;
 }
 
-body {
-	width: 100%;
-}
-
 img {
 	width: 100%;
-}
+ }
 
 .container {
 	max-width: 1200;
@@ -61,7 +57,7 @@ header .container {
 }
 
 header .brand {
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 }
 
 header .brand a {
@@ -74,27 +70,23 @@ header .brand a span {
 	color: #fff;
 }
 
-.nav-bar {
-	position: relative;
-}
-
 .nav-bar nav {
 	position: absolute;
 	top: 60px;
-	left: 160%;
+	left: 20%;
 	background: var(--lime);
-	/* width: 100%; */
+	width: 100%;
 	height: calc(100vh - 60px);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	transform: translateX(0%);
+	transform: translateX(80%);
 	transition: 0.5s ease-in-out transform;
 }
 
 .nav-bar nav.nav-toggle {
-	transform: translateX(-100%);
+	transform: translateX(0%);
 }
 
 .nav-bar nav .nav-list {
@@ -121,8 +113,7 @@ header .brand a span {
 	display: inline-block;
 	width: 100%;
 	height: 100%;
-	padding: 0 30px;
-	line-height: 6;
+	line-height: 5;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	transition: .5s ease;
@@ -216,7 +207,7 @@ header .brand a span {
 
 #hero .container a.btn {
 	display: inline-block;
-	font-size: 1.8rem;
+	font-size: 2rem;
 	color: var(--lime);
 	text-decoration: none;
 	margin-top: 20px;
@@ -263,7 +254,7 @@ header .brand a span {
 	width: 100%;
 	height: 100%;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(342px, 1fr));
 	grid-gap: 20px;
 	align-items: center;
 	margin-bottom: 20px;
@@ -736,32 +727,7 @@ footer .copy-right {
 	}
 
 	header .brand {
-		font-size: 1.8rem;
-	}
-
-	/* hero section */
-	#hero .container h2 {
-		font-size: 4rem;
-		color: #fff;
-		margin-bottom: 20px;
-		letter-spacing: 2px;
-		/* line-height: 30px; */
-	}
-	
-	#hero .container h2 span {
-		color: var(--lime);
-		letter-spacing: 0.25rem;
-	}
-	
-	#hero .container a.btn {
-		display: inline-block;
-		font-size: 2rem;
-		color: var(--lime);
-		text-decoration: none;
-		margin-top: 20px;
-		border: 1px solid rgb(193, 219, 39);
-		padding: 2rem;
-		transition: background .5s ease-in-out;
+		font-size: 1.4rem;
 	}
 }
 	
