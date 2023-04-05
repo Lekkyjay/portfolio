@@ -1,0 +1,147 @@
+[  
+  {
+    "id": 1,
+    "class": "react",
+    "cat": "React / Redux Toolkit",
+    "title": "Token Mall Ecomm",
+    "src": "images/project-img-01.jpg",
+    "url": "https://token-mall.netlify.app/",
+    "git": "https://github.com/Lekkyjay/ecomm-rtk-app"
+  },
+  {
+    "id": 2,
+    "class": "react",
+    "cat": "React / MovieDB",
+    "title": "Movie App",
+    "src": "images/project-img-02.jpg",
+    "url": "https://movie-app-dev.netlify.app/",
+    "git": "https://github.com/Lekkyjay/movie-app-sass"
+  },
+  {
+    "id": 3,
+    "class": "react",
+    "cat": "React / Redux Toolkit",
+    "title": "Madingo Mall",
+    "src": "images/project-img-17.jpg",
+    "url": "https://madingo.netlify.app/",
+    "git": "https://github.com/Lekkyjay/ecomm-rtk"
+  },  
+  {
+    "id": 4,
+    "class": "angular",
+    "cat": "Angular / firebase",
+    "title": "Grocery Shopping App",
+    "src": "images/project-img-05.jpg",
+    "url": "https://eshop-fcdf4.firebaseapp.com/",
+    "git": "https://github.com/Lekkyjay/eshop-app"    
+  },
+  {
+    "id": 5,
+    "class": "react",
+    "cat": "React / Express / Mongoose",
+    "title": "KPI Dashboard",
+    "src": "images/project-img-03.jpg",
+    "url": "https://admin-dash-client.onrender.com",
+    "git": "https://github.com/Lekkyjay/admin-dash-api"    
+  },
+  {
+    "id": 6,    
+    "class": "angular",
+    "cat": "Angular Material",
+    "title": "Budget App",
+    "src": "images/project-img-14.jpg",
+    "url": "https://angular-budget-app2.netlify.app/",
+    "git": "https://github.com/Lekkyjay/angular-budget-app"    
+  },
+  {
+    "id": 7,
+    "class": "react",
+    "cat": "React / Firebase",
+    "title": "Ecomm. Clothing Store",
+    "src": "images/project-img-06.jpg",
+    "url": "https://dress-shop.netlify.app/",
+    "git": "https://github.com/Lekkyjay/dress-shop"
+  }, 
+  {
+    "id": 8,
+    "class": "react",
+    "cat": "React / Contentful",
+    "title": "Gadget Store",
+    "src": "images/project-img-07.jpg",
+    "url": "https://tech-store-react-context.netlify.app/",
+    "git": "https://github.com/Lekkyjay/tech-store-react"
+  },
+  {
+    "id": 9,
+    "class": "react",
+    "cat": "React / LocalStorage",
+    "title": "Budgeting App",
+    "src": "images/project-img-08.jpg",
+    "url": "https://budget-app-react-context.netlify.app/",
+    "git": "https://github.com/Lekkyjay/react-budget-app"
+  },  
+  {
+    "id": 10,
+    "class": "express",
+    "cat": "React / Express",
+    "title": "Exercise Logging App",
+    "src": "images/project-img-09.jpg",
+    "url": "https://exercise-logger.netlify.app/",
+    "git": "https://github.com/Lekkyjay/exercise-tracker"
+  },
+  {
+    "id": 11,
+    "class": "react",
+    "cat": "React",
+    "title": "Expense Tracker",
+    "src": "images/project-img-10.jpg",
+    "url": "https://lekkyjay.github.io/react-expense-tracker/",
+    "git": "https://github.com/Lekkyjay/react-expense-tracker"
+  },
+  {
+    "id": 12,
+    "class": "angular",
+    "cat": "Angular / Firebase",
+    "title": "Real Estate App",
+    "src": "images/project-img-16.jpg",
+    "url": "https://fir-angular-1babe.firebaseapp.com/",
+    "git": "https://github.com/Lekkyjay/angular-real-estate"
+  },
+  {
+    "id": 13,
+    "class": "react",
+    "cat": "React / LocalStorage",
+    "title": "Task Manager App",
+    "src": "images/project-img-12.jpg",
+    "url": "https://react-taskmanager-app.netlify.app/",
+    "git": "https://github.com/Lekkyjay/react-task-manager"
+  },  
+  {
+    "id": 14,
+    "class": "react",
+    "cat": "React / ApexCharts",
+    "title": "Data Visualization App",
+    "src": "images/project-img-13.jpg",
+    "url": "https://lekkyjay.github.io/apex-charts/",
+    "git": "https://github.com/Lekkyjay/apex-charts"
+  },
+  {
+    "id": 15,
+    "class": "react",
+    "cat": "React / Express / Mongoose",
+    "title": "Booking App",
+    "src": "images/project-img-04.jpg",
+    "url": "https://booking-app-resort.netlify.app",
+    "git": "https://github.com/Lekkyjay/book-app-api"
+    
+  },  
+  {
+    "id": 16,
+    "class": "react",
+    "cat": "React",
+    "title": "Gear Cart",
+    "src": "images/project-img-11.jpg",
+    "url": "https://lekkyjay.github.io/react-context-cart/",
+    "git": "https://github.com/Lekkyjay/react-context-cart"
+  }  
+]
