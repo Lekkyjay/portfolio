@@ -134,14 +134,5 @@
     "url": "https://booking-app-resort.netlify.app",
     "git": "https://github.com/Lekkyjay/book-app-api"
     
-  },  
-  {
-    "id": 16,
-    "class": "react",
-    "cat": "React",
-    "title": "Gear Cart",
-    "src": "images/project-img-11.jpg",
-    "url": "https://lekkyjay.github.io/react-context-cart/",
-    "git": "https://github.com/Lekkyjay/react-context-cart"
   }  
 ]
