@@ -3,10 +3,10 @@
     "id": 1,
     "class": "react",
     "cat": "React / Redux Toolkit",
-    "title": "Token Mall Ecomm",
-    "src": "images/project-img-01.jpg",
-    "url": "https://token-mall.netlify.app/",
-    "git": "https://github.com/Lekkyjay/ecomm-rtk-app"
+    "title": "Madingo Mall",
+    "src": "images/project-img-17.jpg",
+    "url": "https://madingo.netlify.app/",
+    "git": "https://github.com/Lekkyjay/ecomm-rtk"
   },
   {
     "id": 2,
@@ -21,10 +21,10 @@
     "id": 3,
     "class": "react",
     "cat": "React / Redux Toolkit",
-    "title": "Madingo Mall",
-    "src": "images/project-img-17.jpg",
-    "url": "https://madingo.netlify.app/",
-    "git": "https://github.com/Lekkyjay/ecomm-rtk"
+    "title": "Token Mall Ecomm",
+    "src": "images/project-img-01.jpg",
+    "url": "https://token-mall.netlify.app/",
+    "git": "https://github.com/Lekkyjay/ecomm-rtk-app"    
   },  
   {
     "id": 4,
