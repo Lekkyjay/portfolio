@@ -1,5 +1,14 @@
 [  
   {
+    "id": 12,
+    "class": "react",
+    "cat": "React / Redux Toolkit",
+    "title": "Real Estate App",
+    "src": "images/project-img-16.jpg",
+    "url": "https://real-estate-client-lphp.onrender.com",
+    "git": "https://github.com/Lekkyjay/real-estate-client"
+  },
+  {
     "id": 1,
     "class": "react",
     "cat": "React / Redux Toolkit",
@@ -97,15 +106,6 @@
     "src": "images/project-img-10.jpg",
     "url": "https://lekkyjay.github.io/react-expense-tracker/",
     "git": "https://github.com/Lekkyjay/react-expense-tracker"
-  },
-  {
-    "id": 12,
-    "class": "angular",
-    "cat": "Angular / Firebase",
-    "title": "Real Estate App",
-    "src": "images/project-img-16.jpg",
-    "url": "https://fir-angular-1babe.firebaseapp.com/",
-    "git": "https://github.com/Lekkyjay/angular-real-estate"
   },
   {
     "id": 13,
