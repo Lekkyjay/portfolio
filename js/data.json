@@ -1,6 +1,6 @@
 [  
   {
-    "id": 12,
+    "id": 1,
     "class": "react",
     "cat": "React / Redux Toolkit",
     "title": "Real Estate App",
@@ -9,7 +9,7 @@
     "git": "https://github.com/Lekkyjay/real-estate-client"
   },
   {
-    "id": 1,
+    "id": 2,
     "class": "react",
     "cat": "React / Redux Toolkit",
     "title": "Madingo Mall",
@@ -18,16 +18,16 @@
     "git": "https://github.com/Lekkyjay/ecomm-rtk"
   },
   {
-    "id": 2,
+    "id": 3,
     "class": "react",
-    "cat": "React / MovieDB",
-    "title": "Movie App",
-    "src": "images/project-img-02.jpg",
-    "url": "https://movie-app-dev.netlify.app/",
-    "git": "https://github.com/Lekkyjay/movie-app-sass"
+    "cat": "React / Firebase",
+    "title": "Ecomm. Clothing Store",
+    "src": "images/project-img-06.jpg",
+    "url": "https://dress-shop.netlify.app/",
+    "git": "https://github.com/Lekkyjay/dress-shop"    
   },
   {
-    "id": 3,
+    "id": 4,
     "class": "react",
     "cat": "React / Redux Toolkit",
     "title": "Token Mall Ecomm",
@@ -36,7 +36,7 @@
     "git": "https://github.com/Lekkyjay/ecomm-rtk-app"    
   },  
   {
-    "id": 4,
+    "id": 5,
     "class": "angular",
     "cat": "Angular / firebase",
     "title": "Grocery Shopping App",
@@ -45,7 +45,7 @@
     "git": "https://github.com/Lekkyjay/eshop-app"    
   },
   {
-    "id": 5,
+    "id": 6,
     "class": "react",
     "cat": "React / Express / Mongoose",
     "title": "KPI Dashboard",
@@ -54,7 +54,7 @@
     "git": "https://github.com/Lekkyjay/admin-dash-api"    
   },
   {
-    "id": 6,    
+    "id": 7,    
     "class": "angular",
     "cat": "Angular Material",
     "title": "Budget App",
@@ -63,16 +63,16 @@
     "git": "https://github.com/Lekkyjay/angular-budget-app"    
   },
   {
-    "id": 7,
+    "id": 8,
     "class": "react",
-    "cat": "React / Firebase",
-    "title": "Ecomm. Clothing Store",
-    "src": "images/project-img-06.jpg",
-    "url": "https://dress-shop.netlify.app/",
-    "git": "https://github.com/Lekkyjay/dress-shop"
+    "cat": "React / MovieDB",
+    "title": "Movie App",
+    "src": "images/project-img-02.jpg",
+    "url": "https://movie-app-dev.netlify.app/",
+    "git": "https://github.com/Lekkyjay/movie-app-sass"
   }, 
   {
-    "id": 8,
+    "id": 9,
     "class": "react",
     "cat": "React / Contentful",
     "title": "Gadget Store",
@@ -81,7 +81,7 @@
     "git": "https://github.com/Lekkyjay/tech-store-react"
   },
   {
-    "id": 9,
+    "id": 10,
     "class": "react",
     "cat": "React / LocalStorage",
     "title": "Budgeting App",
@@ -90,7 +90,7 @@
     "git": "https://github.com/Lekkyjay/react-budget-app"
   },  
   {
-    "id": 10,
+    "id": 11,
     "class": "express",
     "cat": "React / Express",
     "title": "Exercise Logging App",
@@ -99,7 +99,7 @@
     "git": "https://github.com/Lekkyjay/exercise-tracker"
   },
   {
-    "id": 11,
+    "id": 12,
     "class": "react",
     "cat": "React",
     "title": "Expense Tracker",
